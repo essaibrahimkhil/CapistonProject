@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 8.107 s <<< FAILURE! - in runner.TestRunner
+Product Comparison(LapTop & NoteBooks)  Time elapsed: 3.942 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 104
+Current browser version is 103.0.5060.134 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S91MI170', ip: '10.0.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x003E78B3+2193587]
+	Ordinal0 [0x00380681+1771137]
+	Ordinal0 [0x002941A8+803240]
+	Ordinal0 [0x002B5CC3+941251]
+	Ordinal0 [0x002B13EF+922607]
+	Ordinal0 [0x002AEBC1+912321]
+	Ordinal0 [0x002E23B0+1123248]
+	Ordinal0 [0x002E200A+1122314]
+	Ordinal0 [0x002DD5C6+1103302]
+	Ordinal0 [0x002B77E0+948192]
+	Ordinal0 [0x002B86E6+952038]
+	GetHandleVerifier [0x00690CB2+2738370]
+	GetHandleVerifier [0x006821B8+2678216]
+	GetHandleVerifier [0x004717AA+512954]
+	GetHandleVerifier [0x00470856+509030]
+	Ordinal0 [0x0038743B+1799227]
+	Ordinal0 [0x0038BB68+1817448]
+	Ordinal0 [0x0038BC55+1817685]
+	Ordinal0 [0x00395230+1856048]
+	BaseThreadInitThunk [0x751A6739+25]
+	RtlGetFullPathName_UEx [0x77178FEF+1215]
+	RtlGetFullPathName_UEx [0x77178FBD+1165]
+
+
+Product Comparison(LapTop & NoteBooks)  Time elapsed: 3.944 s  <<< ERROR!
+java.lang.NullPointerException
+

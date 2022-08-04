@@ -1,0 +1,7 @@
+pageObject\DesktopsTabPageObj.class
+pageObject\laptopAndnotpadPageObj.class
+pageObject\RetailPageObject.class
+pageObject\HomePageObj.class
+utilities\Util.class
+core\Base.class
+utilities\CucumberReportingConfig.class
